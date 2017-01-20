@@ -1,7 +1,7 @@
 # android-textbook-resale-app-
 Android application for posting and purchasing used textbooks
 
-Server scripts availible in this repo: 
+Server scripts availible in this repo: https://github.com/roeje/barter-books-server-scripts.git
 
 ###Objective & Scope: 
 Barter books is a Android application that connects people who are interested in buying, selling, or trading used textbooks (or any book in general). The app will allow users to post relevant information regarding books they wish to sell to the app database, and query the database for relevant textbooks based on ISBN numbers. The app will allow the user to create an account in the app and save relevant data to their account (favorites, currently posted books, etc). The application will integrate data retrieved through communication with the Google Books API. This information can include: title, publication details, cover art, and more. For a given book posed to the database, the email address of the user who posted the book will be saved in the database. On querying a specific book located in the database, a user will be able to, on the click of a button, email the book's owner. Our app now connects to a MySQL database hosted on the University’s server. Through the use of PHP scripts made by HTTP requests inside the app we can return data from our database. A major feature that we added is a barcode scanner, which scans any barcode from a book or textbook and pulls down the book information and thumbnail from Google.
